@@ -78,28 +78,20 @@ Key R packages:
 - `ggplot2`
 
 ---
-## Repository Structure
-```text
-├── data/
-│   ├── raw/               # Original datasets (if shareable)
-│   ├── processed/         # Cleaned and analysis-ready data
-│
-├── scripts/
-│   ├── 01_data_preparation.R
-│   ├── 02_distance_matrix.R
-│   ├── 03_spatial_autocorrelation.R
-│   ├── 04_spatial_regressions.R
-│
-├── maps/
-│   ├── lisa_cluster_map.png
-│   ├── morans_i_scatter.png
-│
-├── results/
-│   ├── regression_tables/
-│   ├── diagnostics/
-│
-├── report/
-│   └── seminar_paper.pdf
-│
-├── README.md
-└── LICENSE
+
+## Disclaimer
+This repository is provided for **academic, educational, and portfolio purposes only**.
+
+The analysis, code, and visualizations reflect the author’s work within an academic context
+and do not represent official statistics, policy recommendations, or the views of any
+institution.
+
+Due to data licensing restrictions, raw datasets are not publicly shared. All results are
+based on publicly available regional data sources and processed using reproducible methods.
+
+The code is provided “as is” without warranty of any kind. Users are responsible for
+verifying results before applying them to research, policy analysis, or decision-making.
+
+Parts of this project were developed collaboratively as part of an academic seminar.
+
+
